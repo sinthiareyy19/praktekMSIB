@@ -1,0 +1,6 @@
+HTML
+CSS
+PHP
+Javascript
+Laravel
+GIT
