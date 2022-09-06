@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 4 : Frameset </title>
+    </head>
+    <frameset rows="20%, *, 5%" cols="100%" frameborder="no"> <!-- awal baris 1-->
+    <!-- navbar component-->
+        <frameset cols="15%, *"> 
+           <frame src="logo.html" scrolling="no"/>
+        <frame src="navbar.html" scrolling="no"/>
+    </frameset> 
+    <!-- Page Content-->
+    <frameset rows="60%, *" cols="100%">
+        <frame src="body.html" noresize="yes" scrolling="yes" name="main"/>
+     <!-- secondary Content-->
+        <frameset cols="30%,*,30%">
+            <frame src="left.html" scrolling="no"/>
+            <frame src="center.html" scrolling="no"/>
+            <frame src="right.html" scrolling="no"/>
+        </frameset>
+    </frameset>
+     <!-- Footer Content-->
+    <frameset> 
+        <frame src="footer.html" scrolling="no"/>
+    </frameset> 
+    </frameset> <!-- akhir baris 1-->

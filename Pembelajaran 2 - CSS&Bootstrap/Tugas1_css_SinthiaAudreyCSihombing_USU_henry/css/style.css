@@ -1,0 +1,43 @@
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13pt;
+    text-align: justify;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-photo/green-paint-brush-textured-background_53876-104801.jpg?w=740&t=st=1661780439~exp=1661781039~hmac=2ac9d8d9e6829e4e6f2234dae26fbba66a0baf2c2129848f692a02a060775ff6");
+    background-attachment:fixed;
+	margin:1cm 2cm;
+}
+
+hr{
+	border-width:3px;
+	border-color:rgba(0, 0, 0, 0.584);
+	border-style:dotted;
+}
+
+h1 {
+    color: DarkCyan;
+}
+
+fieldset, legend {
+    background-color:rgba(255,255,255,0.7);  
+    color:black;
+    margin: 20px 0px; 
+}
+
+legend{
+	padding:8px;
+	background-color:rgb(15, 20, 121);
+	color:rgb(255, 255, 255);
+	font-size:14pt;
+	text-transform:uppercase;
+	font-family:ubuntu, calibri;
+}
+
+ol { 
+	list-style-type: square;
+} 
+ul { 
+	list-style-type: circle;
+} 
