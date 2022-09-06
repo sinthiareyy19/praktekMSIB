@@ -1,0 +1,60 @@
+<!--Nama : Sinthia Audrey C Sihombing-->
+<!--Nama Mentor : Henry Saptono-->
+
+<!DOCTYPE html>
+<html>
+	<head><title>Tugas 3</title></head>
+	<body>
+		<form name="formRegister" method="GET" action="#"> <!--bekerja di halaman ini--> <!--Get tampil di url sedangkan post tidak tampil di url-->
+			<table border="0" align="center" cellpadding="15" width="40%">
+				<thead>
+					<tr bgcolor="grey">
+						<th colspan="2">Form Register Produk</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr> <!--ada 5 baris jd ada 5 tr-->
+						<td width="25%"><label>Nama Produk</label></td>
+						<td>
+							<input type="text" name="namaProduk" value="" placeholder="Nama Produk"/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Jenis Produk</label></td>
+						<td>
+							<select name="jenisProduk">
+                                <option value="kategoriProduk">-Kategori Produk-</option>
+                            </select>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Harga</label></td>
+						<td>
+                            <input type="text" name="harga" value="" />
+						</td>
+					</tr>
+					<tr>
+                        <td><label>Stok</label></td>
+						<td>
+                            <input type="text" name="stok" value="" />
+						</td>
+					</tr>
+					<tr>
+						<td><label>Photo</label></td>
+						<td>
+                            <input type="text" name="photo" value="" />
+						</td>
+					</tr>
+				</tbody>
+                <tfoot>
+					<tr bgcolor="grey">
+						<th colspan="2">
+							<input type="submit" name="proses" value="Kirim" />&nbsp;&nbsp;
+							<input type="reset" name="unproses" value="Batal" />
+						</th>
+					</tr>
+                </tfoot>
+			</table>
+		</form>
+	</body>
+</html>
